@@ -1,0 +1,61 @@
+:root {
+  --teal: rgb(2, 173, 2);
+  --teal_hover: #279e8c;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.h-font {
+  font-family: "Merienda", cursive;
+}
+
+.custom-bg {
+  background-color: var(--teal) !important;
+}
+
+.custom-bg:hover {
+  background-color: var(--teal_hover) !important;
+  /* position: absolute;
+    align-items: end; */
+}
+
+.h-line {
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+  margin-bottom: 20px;
+}
+
+.pop:hover {
+  border-top-color: var(--teal) !important;
+  transform: scale(1.03);
+  transition: all 0.3s;
+}
+
+.h-long-line {
+  width: 300px;
+  margin: 0 auto;
+  height: 1.7px;
+  margin-bottom: 30px;
+}
+
+.custom-alert {
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  z-index: 3;
+}
+
+/* .modal-backdrop {
+  z-index: -669;
+}
+
+.fade {
+  z-index: -667;
+}
+
+.show {
+  z-index: -668;
+} */
